@@ -22,8 +22,11 @@
 						
                             <div class="min-w-full divide-y divide-gray-200 w-full">
                             <b>Titulo</b>
-                        
                             <p>{{ nota.titulo }}</p>
+
+                            <b>Categoría</b>
+                            <p>{{ nota.categoria }}</p>
+
 
                             <b>Contenido</b>
                             <p>{{ nota.contenido }}</p>

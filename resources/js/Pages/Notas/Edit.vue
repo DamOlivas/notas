@@ -21,6 +21,21 @@
                                 v-model="form.titulo"
                             ></textarea>
 
+                             <label class="block font-medium text-sm text-gray-700">
+                                Categoría
+                            </label>
+
+                            <select
+                                class="form-input w-full rounded-md shadow-sm"
+                                v-model="form.categoria"
+                                required
+                            >
+                                <option value=""> Seleccionar </option>
+                                <option value="Alta" selected> Alta </option>
+                                <option value="Media" selected> Media </option>
+                                <option value="Baja" selected> Baja </option>
+                            </select> 
+
                             <label class="block font-medium text-sm text-gray-700">
                                 Contenido
                             </label>
