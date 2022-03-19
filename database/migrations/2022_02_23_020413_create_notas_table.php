@@ -19,8 +19,8 @@ class CreateNotasTable extends Migration
             $table->string('contenido');
             $table->string('categoria');
             //USUARIO
-            $table->biginteger('user_id')->unsigned();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->biginteger('users_id')->unsigned();
+            $table->foreign('users_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
